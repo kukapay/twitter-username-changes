@@ -39,7 +39,7 @@ An MCP server that tracks the historical changes of Twitter usernames—frequent
 
 Start the server in development mode to test locally:
 ```bash
-mcp dev server.py
+mcp dev main.py
 ```
 
 This launches the MCP Inspector, where you can:
@@ -93,7 +93,9 @@ This launches the MCP Inspector, where you can:
 ### Example Queries
 
 1. **Query `@Mormonger`**:
+   
    Tool input: `screen_name: "Mormonger"`
+   
    Output:
    ```
    Username change history for Mormonger:
@@ -104,7 +106,9 @@ This launches the MCP Inspector, where you can:
    ```
 
 2. **Query Invalid Handle**:
+   
    Tool input: `screen_name: "InvalidUser123"`
+   
    Output:
    ```
    No username change history found for InvalidUser123
