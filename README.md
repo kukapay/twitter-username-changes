@@ -1,10 +1,12 @@
 # Twitter Username Changes MCP Server
 
+[![smithery badge](https://smithery.ai/badge/@kukapay/twitter-username-changes-mcp)](https://smithery.ai/server/@kukapay/twitter-username-changes-mcp)
 An MCP server that tracks the historical changes of Twitter usernames—frequent screen name changes in crypto projects can be a red flag for potential scam risks.
 
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 ![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen.svg)
+
 
 ## Features
 
@@ -13,6 +15,14 @@ An MCP server that tracks the historical changes of Twitter usernames—frequent
 - **Lightweight Design**: Built with minimal dependencies (`mcp` and `requests`) for easy setup.
 
 ## Installation
+
+### Installing via Smithery
+
+To install Twitter Username Changes for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@kukapay/twitter-username-changes-mcp#clapollady):
+
+```bash
+npx -y @smithery/cli install @kukapay/twitter-username-changes-mcp --client claude
+```
 
 ### Prerequisites
 
