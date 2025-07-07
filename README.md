@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/kukapay-twitter-username-changes-mcp-badge.png)](https://mseep.ai/app/kukapay-twitter-username-changes-mcp)
+
 # Twitter Username Changes MCP Server
 
 An MCP server that tracks the historical changes of Twitter usernames—frequent screen name changes in crypto projects can be a red flag for potential scam risks.
