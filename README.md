@@ -6,6 +6,8 @@ An MCP server that tracks the historical changes of Twitter usernames—frequent
 ![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen.svg)
 
+[![Trust Score](https://archestra.ai/mcp-catalog/api/badge/quality/kukapay/twitter-username-changes-mcp)](https://archestra.ai/mcp-catalog/kukapay__twitter-username-changes-mcp)
+
 ## Features
 
 - **Username Change History**: Query the historical usernames of a Twitter user by their current screen name (e.g., `@OSINT_Ukraine` or `@Mormonger`).
