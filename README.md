@@ -12,6 +12,10 @@ An MCP server that tracks the historical changes of Twitter usernames—frequent
 - **Prompt Support**: Includes a prompt template to guide users in formulating queries.
 - **Lightweight Design**: Built with minimal dependencies (`mcp` and `requests`) for easy setup.
 
+## Hosted deployment
+
+A hosted deployment is available on [Fronteir AI](https://fronteir.ai/mcp/kukapay-twitter-username-changes-mcp).
+
 ## Installation
 
 ### Prerequisites
