@@ -90,6 +90,34 @@ This launches the MCP Inspector, where you can:
      - OSINT_Ukraine (2022-02-24 to 2022-02-25)
      ```
 
+### Integrating with OpenClaw
+
+OpenClaw can save this server as an outbound MCP server and probe it before an
+agent run:
+
+```bash
+openclaw mcp add twitter-username-changes \
+  --command python \
+  --arg /absolute/path/to/twitter-username-changes-mcp/main.py
+
+openclaw mcp doctor twitter-username-changes --probe
+```
+
+For fraud-risk reviews, keep this MCP server responsible for username history
+lookups. If the same OpenClaw workflow needs account-scoped X/Twitter follow-up
+checks, install TweetClaw separately:
+
+```bash
+openclaw plugins install npm:@xquik/tweetclaw@1.6.31
+openclaw plugins inspect tweetclaw --runtime --json
+```
+
+Use TweetClaw only after the username-history signal needs follow-up work such
+as user lookup, follower export, search tweet replies, media download, monitors,
+webhooks, giveaway draw evidence, or approval-reviewed post and reply jobs.
+Keep MCP paths and API keys in OpenClaw config, not prompts, docs, logs, or
+issue comments.
+
 ### Example Queries
 
 1. **Query `@Mormonger`**:
@@ -117,4 +145,3 @@ This launches the MCP Inspector, where you can:
 ## License
 
 This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
-
